@@ -63,7 +63,7 @@ function placeOrder() {
       body: JSON.stringify(data),
     });
 
-    location.assign("./html/order.html");
+    location.assign("./order.html");
   }
 
   orderAPI(orderProduct);
