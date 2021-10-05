@@ -192,10 +192,13 @@ html {
         display: block;
     }
 }
+.item{
+    margin-top:20px;
+}
+
+
 #product-data{
     margin: 120px 80px;
-   
-
 }
 #product-grid{
     display: flex;
