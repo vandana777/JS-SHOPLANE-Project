@@ -23,7 +23,7 @@ $.get("https://5d76bf96515d1a0014085cf9.mockapi.io/product",  function(response)
         else{
             accesorySection.innerHTML += `
         <div id="top-section">
-           <div><a href="../html/product.html?id=${response.id}">
+           <div><a href="./product.html?id=${response.id}">
              <img id="product-image" src="${response[i].preview}"/></a>
            </div>
            <div id="product-desc">
