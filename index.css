@@ -193,7 +193,8 @@ html {
     }
 }
 #product-data{
-    margin: 120px 80px;
+    margin: 0px 80px;
+    margin-top:120px;
 
 }
 #product-grid{
